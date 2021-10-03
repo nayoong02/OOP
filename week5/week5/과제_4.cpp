@@ -6,7 +6,7 @@ public:
 	int num1;
 	int num2;
 
-	Test(int a, int b) {
+	Test(int a, int b) { //생성자 추가
 		num1 = a;
 		num2 = b;
 	}
