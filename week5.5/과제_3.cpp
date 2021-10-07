@@ -1,0 +1,39 @@
+#include <string>
+#include <iostream>
+
+class Animal {
+private:
+	std::string name;
+
+public:
+	Animal() {};
+	Animal(std::string name) : name(name) {};
+
+	void showName() {
+		std::cout << "Name is " << name << std::endl;
+	}
+
+	//operator+ 추가하세요
+	Animal operator+(const Animal& a) {
+		Animal temp;
+		temp.name = this->name + a.name; //this.name:Jindo, a.name:Nabi
+		return temp;
+	}
+};
+
+int main() {
+
+	Animal cat("Nabi");
+	cat.showName();
+	Animal dog("Jindo");
+	dog.showName();
+
+	Animal catDog = dog + cat; //개냥이 합성
+	catDog.showName();
+
+	dog.showName();
+
+	getchar();
+
+	return 0;
+}
