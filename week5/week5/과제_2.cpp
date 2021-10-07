@@ -3,7 +3,7 @@
 class Animal {
 public:
 	Animal() { //디폴트 생성자 추가
-		numberOfLeg = 4;
+		
 	}
 	Animal(int numberOfLeg) {
 		this->numberOfLeg = numberOfLeg;
