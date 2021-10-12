@@ -10,7 +10,7 @@ bool funcA() {
 }
 int main() {
     try {
-        if (!funcA()) throw std::out_of_range("Invalid input!!"); //c<
+        if (!funcA()) throw std::out_of_range("Invalid input!!"); //c<10일 때 예외 발생
     }
     catch(std::out_of_range& e) {
         std::cout << "Exception : " << e.what() << std::endl;
