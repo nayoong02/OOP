@@ -29,7 +29,7 @@ public:
 };
 
 //제어를 위한 클래스
-class Context { 
+class Context {
 public:
     Context(Strategy* strategy) {
         this->strategy = strategy;
