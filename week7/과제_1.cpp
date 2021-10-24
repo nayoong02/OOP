@@ -11,6 +11,7 @@ public:
         return num1 + num2;
     }
 };
+
 //OperationSubstract
 class OperationSubstract : public Strategy {
 public:
@@ -18,6 +19,7 @@ public:
         return num1 - num2;
     }
 };
+
 //OperationMultiply
 class OperationMultiply : public Strategy {
 public:
