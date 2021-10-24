@@ -13,7 +13,7 @@ private:
 public:
 	int get_value()
 	{
-		return m_value;
+		return m_value; 
 	}
 	void set_value(int v)
 	{
