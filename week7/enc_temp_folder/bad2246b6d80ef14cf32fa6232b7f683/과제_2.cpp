@@ -45,4 +45,5 @@ int main()
 	std::cout << "main: log_data is " << global_Logger_ptr->get_log_data() << '\n';
 	Logger_User_A();
 	Logger_User_B();
+
 }

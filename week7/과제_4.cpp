@@ -91,4 +91,4 @@ int main() {
 	audiaPlayer->play("avi", "mind me.avi");
 
 	return 0;
-}
+} 
