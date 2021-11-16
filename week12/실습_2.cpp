@@ -27,7 +27,6 @@ int main() {
    //(추가) e, f의 swap이 가능하도록 swap template 호출
 	swap(e, f);
 
-
 	std::cout << "a: " << a << ", b: " << b << std::endl;
 	std::cout << "c: " << c << ", d: " << d << std::endl;
 	std::cout << "e: " << e << ", f: " << f << std::endl;

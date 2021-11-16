@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 template <typename T>
 void fun(const T& x)
