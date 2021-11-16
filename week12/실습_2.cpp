@@ -14,7 +14,7 @@ template <> void swap(std::string& a, std::string& b) {
 }
 
 int main() {
-	int a = 1;
+	int a = 1; 
 	int b = 2;
 	float c = 3.3;
 	float d = 4.4;

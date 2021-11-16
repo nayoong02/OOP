@@ -2,7 +2,7 @@
 using namespace std; 
 
 template <typename T>
-void fun(const T& x)
+void fun(const T& x) 
 {
     static int count = 0;
     cout << "x = " << x << " count = " << count << endl;

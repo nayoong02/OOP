@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std; 
 
-class Student { 
+class Student {  
 private: 
 	std::string rollNo;
 	std::string name;

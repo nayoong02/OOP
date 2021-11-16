@@ -8,7 +8,7 @@ void swap(T& a, T& b) {
 	b = temp;
 }
 
-int main() {
+int main() { 
 	int a = 1;
 	int b = 2;
 	float c = 3.3;
