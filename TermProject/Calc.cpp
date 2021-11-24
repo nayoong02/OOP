@@ -212,7 +212,7 @@ Calc::Calc() {
 void Calc::Calculation(char* exp) {
     char dest[256] = "";
 
-    if (!postfix(dest, exp)) { //POSTFIX가 FALSE 경우 비정상적인 수식으로 계산 실패 통지
+    if (!postfix(dest, exp)) { //postfix가 FALSE 경우 비정상적인 수식으로 계산 실패 통지
         OnNotify(CALCULATION_FAIL, -1);
         return;
     }
@@ -220,7 +220,7 @@ void Calc::Calculation(char* exp) {
     calc(dest); //후위식 넘겨줌
 }
 
-//이벤트 통지받을 CallBack 객체 등록
+//이벤트 통지 받을 CallBack 객체 등록
 void Calc::addcallBack(CallBack* cb) {
     this->cb[cbCount++] = *cb;
 }
