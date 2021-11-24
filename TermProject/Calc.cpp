@@ -1,7 +1,7 @@
-#include "Calc.h" 
+#include "Calc.h"
 
 void Calc::init_stack() {
-    top = -1; //스택에 처음 들어가는 원소 인덱스 0부터 
+    top = -1; //스택에 처음 들어가는 원소 인덱스 0부터
 }
 
 int Calc::push(int t) {
@@ -201,7 +201,7 @@ void Calc::calc(char* p) {
         }
     }
 
-    //계산 성공 EVENT와 계산 결과값을 Param으로 전달
+    //계산 성공 EVENT와 계산 결과값을 PARAM으로 전달
     OnNotify(CALCULATION_SUCCESS, pop());
 }
 
@@ -212,7 +212,7 @@ Calc::Calc() {
 void Calc::Calculation(char* exp) {
     char dest[256] = "";
 
-    if (!postfix(dest, exp)) { //postfix가 FALSE 경우 비정상적인 수식으로 계산 실패 통지
+    if (!postfix(dest, exp)) { //POSTFIX가 FALSE 경우 비정상적인 수식으로 계산 실패 통지
         OnNotify(CALCULATION_FAIL, -1);
         return;
     }

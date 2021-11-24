@@ -1,10 +1,10 @@
 #include <iostream>
 #include <iostream>
-#include <functional> 
+#include <functional>
 #include "Calc.h"
 
 using namespace std;
- 
+
 void main() {
 
     Calc calc;
@@ -26,7 +26,8 @@ void main() {
 
     calc.addcallBack(&calcCallback); //계산기에 callback 함수 넘겨줌(호출)
 
-    while (1) {
+    while (1)
+    {
         char exp[256] = "";
         cin >> exp; //식 입력 받음
         if (strcmp(exp, "exit") == 0) { //exit 입력 받으면 종료
