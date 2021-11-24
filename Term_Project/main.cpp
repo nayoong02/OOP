@@ -4,7 +4,7 @@
 #include "Calc.h"
 
 using namespace std;
-
+ 
 void main() {
 
     Calc calc;
