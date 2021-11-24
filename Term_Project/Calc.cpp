@@ -1,4 +1,4 @@
-#include "Calc.h"
+#include "Calc.h" 
 
 void Calc::init_stack() {
     top = -1; //스택에 처음 들어가는 원소 인덱스 0부터

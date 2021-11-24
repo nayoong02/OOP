@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iostream>
-#include <functional>
+#include <functional> 
 #include "Calc.h"
 
 using namespace std;
